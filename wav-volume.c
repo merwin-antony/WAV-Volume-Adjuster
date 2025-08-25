@@ -1,5 +1,7 @@
 // Modifies the volume of an audio file
 
+// command line argument to run this code -->  ./wav-volume <input file name> <output file name> <factor>
+
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -50,3 +52,4 @@ int main(int argc, char *argv[])
     fclose(input);
     fclose(output);
 }
+
