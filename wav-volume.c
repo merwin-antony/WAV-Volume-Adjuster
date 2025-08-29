@@ -1,6 +1,9 @@
 // Modifies the volume of an audio file
 
-// command line argument to run this code -->  ./wav-volume <input file name> <output file name> <factor>
+// command line argument to run this code →  ./wav-volume <input file name> <output file name> <factor>
+//If (factor > 1.0) → samples are amplified → the audio becomes louder.
+//If (0 < factor < 1.0) → samples are reduced → the audio becomes quieter.
+//If (factor = 1.0) → samples are unchanged → the output is identical to the input.
 
 #include <stdint.h>
 #include <stdio.h>
@@ -52,4 +55,5 @@ int main(int argc, char *argv[])
     fclose(input);
     fclose(output);
 }
+
 
