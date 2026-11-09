@@ -28,7 +28,7 @@ A command-line audio processing program developed in **C**, designed to increase
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/WAV-Volume-Adjuster.git
+git clone https://github.com/merwin-antony/WAV-Volume-Adjuster.git
 ```
 
 ### 2. Compile the Program
